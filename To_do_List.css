@@ -1,0 +1,56 @@
+body {
+   background-color: black;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+h1 {
+   color: white;
+}
+
+section {
+   background: rgba(255, 255, 255, .3);
+   border-radius: 1rem;
+   margin-top: 1rem;
+}
+
+.main_todo_div {
+   margin-top: .68rem;
+   margin-bottom: .7rem;
+}
+.main_todo_div li {
+   margin-top: -.1rem;
+}
+
+button {
+   background: #f5ee62;
+   width: 5rem;
+   height: 2.6rem;
+   border-radius: 1.5rem;
+   cursor: pointer;
+}
+
+#inputValue {
+   border-radius: .9rem;
+   font-size: .9rem;
+   height: 1.2rem;
+   width: 13rem;
+   padding: .5rem;
+}
+
+.main_todo_div {
+   display: flex;
+}
+
+li {
+   margin: .5rem;
+   color: white;
+   height: 1rem;
+   width: 13rem;
+   border-radius: 1.5rem;
+   list-style: none;
+   font-size: 1rem;
+   padding: .5rem;
+}
